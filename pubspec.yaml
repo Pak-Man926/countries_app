@@ -37,6 +37,7 @@ dependencies:
   graphql: ^5.2.4
   hive_ce: ^2.20.0
   hive_ce_flutter: ^2.3.4
+  graphql_flutter: ^5.3.0
 
 dev_dependencies:
   flutter_test:
