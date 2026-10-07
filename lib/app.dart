@@ -1,5 +1,5 @@
-import 'package:countries/homepage.dart';
-import 'package:flutter/material.dart';
+import "package:countries/homepage.dart";
+import "package:flutter/material.dart";
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
@@ -9,10 +9,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: "Countries App",
-      theme: ThemeData(
-        primarySwatch: Colors.blue,
-      ),
-      themeMode: ThemeMode.system,
+      theme: ThemeData(primarySwatch: Colors.blue),
       home: const HomePage(),
     );
   }
